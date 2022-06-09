@@ -1,0 +1,1 @@
+(()=>{let e=0;document.addEventListener("click",(()=>console.log(`Clicked ${++e} times`)))})();

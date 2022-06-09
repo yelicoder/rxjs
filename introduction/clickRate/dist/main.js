@@ -1,0 +1,1 @@
+(()=>{let e=0,t=Date.now()-1e3;document.addEventListener("click",(()=>{Date.now()-t>=1e3&&(console.log(`Clicked ${++e} times`),t=Date.now())}))})();
