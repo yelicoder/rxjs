@@ -4,15 +4,15 @@
 
 npm install -g typescript
 
-mkdir click
+mkdir asyncObservable
 
-cd click
+cd asyncObservable
 
 npm  install rxjs
 
 code .
 
-add click.ts
+add asyncObservable.ts
 
 add tsconfig.json
 
@@ -22,13 +22,13 @@ add tsconfig.json
         "module": "commonjs",
         "outDir": "dist",
         "sourceMap": true,
-        "lib": ["es5", "es2017", "dom"]
+        "lib": ["es2017", "dom"]
     }
 }
 
 tsc
 
-set breakpoint in click.ts
+set breakpoint in asyncObservable.ts
 
 F5 --> node.js
 
